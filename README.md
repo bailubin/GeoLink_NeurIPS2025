@@ -2,6 +2,8 @@
 
 Welcome to the official repository for the NeurIPS 2025 paper **"GeoLink: Empowering Remote Sensing Foundation Model with OpenStreetMap Data"**!
 
+![GeoLink Framework](https://github.com/bailubin/GeoLink_NeurIPS2025/edit/main/framework.png)
+
 ## 📖 About This Project
 
 GeoLink is a multimodal framework that empowers remote sensing foundation models by integrating OpenStreetMap (OSM) data in both pretraining stage and downstream tasks. 
@@ -14,7 +16,7 @@ Example can be found in [**Using Multimodal GeoLink**](#using-multimodal-geolink
 
 Our extensive experiments demonstrate that incorporating OSM data significantly boosts RS image encoder performance and enhances adaptability to complex geographic scenarios.
 
-📄 **Read our paper**: [arXiv Preprint](https://arxiv.org/abs/2405.02771)
+📄 **Read our paper**: [arXiv Preprint]()
 
 ## 🏋️‍♂️ Pre-trained Models
 

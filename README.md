@@ -2,7 +2,7 @@
 
 Welcome to the official repository for the NeurIPS 2025 paper **"GeoLink: Empowering Remote Sensing Foundation Model with OpenStreetMap Data"**!
 
-![GeoLink Framework](https://github.com/bailubin/GeoLink_NeurIPS2025/edit/main/framework.png)
+![GeoLink Framework](https://github.com/bailubin/GeoLink_NeurIPS2025/blob/main/framework.png)
 
 ## 📖 About This Project
 

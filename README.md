@@ -122,7 +122,7 @@ trainset = DownstreamDataset(data_root, file_names=samples)
 trainloader = torch_geometric.data.DataLoader(trainset, batch_size=2,
                              pin_memory=True, num_workers=1, drop_last=True, shuffle=True)
 train_iter = iter(trainloader)
-# 获取一个batch
+# get a batch
 img, graph = next(train_iter)
 result = multi_encoder(img, graph) #list size [4, batch_size, embed_dim, 14, 14]
 ```
@@ -162,7 +162,7 @@ trainset = DownstreamDataset_UFZ(data_root, file_names=samples)
 trainloader = torch_geometric.data.DataLoader(trainset, batch_size=2,
                              pin_memory=True, num_workers=1, drop_last=True, shuffle=True)
 train_iter = iter(trainloader)
-# 获取一个batch
+# get a batch
 img, graph, label = next(train_iter)
 result = model(img, graph) #list [batch_size, cls_num, 224, 224]
 ```

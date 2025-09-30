@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "label": "natural:coastline" }, "geometry": { "type": "LineString", "coordinates": [ [ 21.092587996834023, 63.306187536695347 ], [ 21.0924783, 63.3062167 ], [ 21.092432857477526, 63.306187536695347 ] ] } },
+{ "type": "Feature", "properties": { "label": "natural:coastline" }, "geometry": { "type": "LineString", "coordinates": [ [ 21.091234956618113, 63.306187536695347 ], [ 21.0912034, 63.3061899 ], [ 21.0911435, 63.3062279 ], [ 21.091099, 63.3065415 ], [ 21.0912108, 63.3066554 ], [ 21.0911638, 63.3066737 ], [ 21.091099, 63.3066989 ], [ 21.09095986596293, 63.306717564721374 ] ] } },
+{ "type": "Feature", "properties": { "label": "natural:coastline" }, "geometry": { "type": "LineString", "coordinates": [ [ 21.09095986596293, 63.307002158495166 ], [ 21.0909946, 63.3070004 ], [ 21.091103, 63.3069763 ], [ 21.0922546, 63.3069602 ], [ 21.0924708, 63.3069736 ], [ 21.0924112, 63.3070908 ], [ 21.0922844, 63.3071645 ], [ 21.0922024, 63.3070439 ], [ 21.0919489, 63.3070439 ], [ 21.0912258, 63.3070673 ], [ 21.09095986596293, 63.307096137702516 ] ] } },
+{ "type": "Feature", "properties": { "label": "man_made:pier" }, "geometry": { "type": "LineString", "coordinates": [ [ 21.091647629740844, 63.306187536695347 ], [ 21.0916257, 63.3063843 ] ] } },
+{ "type": "Feature", "properties": { "label": "highway:service" }, "geometry": { "type": "LineString", "coordinates": [ [ 21.091050901121523, 63.306187536695347 ], [ 21.091043, 63.3062381 ], [ 21.0909931, 63.306558 ], [ 21.0909843, 63.3066144 ] ] } },
+{ "type": "Feature", "properties": { "label": "highway:path" }, "geometry": { "type": "LineString", "coordinates": [ [ 21.0909843, 63.3066144 ], [ 21.0910586, 63.3066429 ], [ 21.0912108, 63.3066554 ] ] } },
+{ "type": "Feature", "properties": { "label": "man_made:pier" }, "geometry": { "type": "LineString", "coordinates": [ [ 21.0912108, 63.3066554 ], [ 21.0924176, 63.3067087 ] ] } },
+{ "type": "Feature", "properties": { "label": "highway:track" }, "geometry": { "type": "LineString", "coordinates": [ [ 21.0909931, 63.306558 ], [ 21.09095986596293, 63.30656652261051 ] ] } },
+{ "type": "Feature", "properties": { "label": "highway:path" }, "geometry": { "type": "LineString", "coordinates": [ [ 21.09095986596293, 63.307058808355443 ], [ 21.0919359, 63.3070062 ], [ 21.0922975, 63.3070196 ] ] } }
+]
+}

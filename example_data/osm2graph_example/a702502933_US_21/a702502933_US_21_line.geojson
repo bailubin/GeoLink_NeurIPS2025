@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "label": "highway:service" }, "geometry": { "type": "LineString", "coordinates": [ [ -116.6842873, 43.6246438 ], [ -116.684293, 43.62614 ] ] } },
+{ "type": "Feature", "properties": { "label": "highway:service;oneway:oneway" }, "geometry": { "type": "LineString", "coordinates": [ [ -116.6861645, 43.6257107 ], [ -116.6849367, 43.6257228 ] ] } },
+{ "type": "Feature", "properties": { "label": "highway:service;oneway:oneway" }, "geometry": { "type": "LineString", "coordinates": [ [ -116.686149, 43.626227 ], [ -116.6861583, 43.6259153 ], [ -116.6861645, 43.6257107 ], [ -116.686168, 43.625593 ], [ -116.686119, 43.625579 ], [ -116.685926, 43.625567 ], [ -116.685053, 43.625562 ], [ -116.68495, 43.625609 ], [ -116.684938, 43.62568 ], [ -116.6849367, 43.6257228 ], [ -116.684931, 43.6259118 ], [ -116.684921, 43.626246 ] ] } },
+{ "type": "Feature", "properties": { "label": "highway:service;oneway:oneway" }, "geometry": { "type": "LineString", "coordinates": [ [ -116.684931, 43.6259118 ], [ -116.6861583, 43.6259153 ] ] } },
+{ "type": "Feature", "properties": { "label": "highway:tertiary" }, "geometry": { "type": "LineString", "coordinates": [ [ -116.686527699924753, 43.626172527673752 ], [ -116.686366, 43.626203 ], [ -116.686149, 43.626227 ], [ -116.685811, 43.626265 ], [ -116.685711, 43.626276 ], [ -116.685427, 43.626281 ], [ -116.68497, 43.626255 ], [ -116.684921, 43.626246 ], [ -116.684293, 43.62614 ], [ -116.684058411595402, 43.626126020802708 ] ] } },
+{ "type": "Feature", "properties": { "label": "highway:residential" }, "geometry": { "type": "LineString", "coordinates": [ [ -116.684921, 43.626246 ], [ -116.684875346794485, 43.626498971818009 ] ] } }
+]
+}

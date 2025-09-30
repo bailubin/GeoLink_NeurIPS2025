@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "label": "golf:hole" }, "geometry": { "type": "LineString", "coordinates": [ [ -104.8881506, 39.3880808 ], [ -104.888310734602726, 39.387857516362203 ] ] } },
+{ "type": "Feature", "properties": { "label": "golf:hole" }, "geometry": { "type": "LineString", "coordinates": [ [ -104.889039580517064, 39.387857516362203 ], [ -104.8886805, 39.3882083 ] ] } },
+{ "type": "Feature", "properties": { "label": "golf:cartpath;highway:path" }, "geometry": { "type": "LineString", "coordinates": [ [ -104.8891047, 39.3881227 ], [ -104.8891464, 39.3880662 ], [ -104.8892323, 39.3879936 ], [ -104.889428563218246, 39.387857516362203 ] ] } },
+{ "type": "Feature", "properties": { "label": "note:Golf Cart path;golf:cartpath;highway:path" }, "geometry": { "type": "LineString", "coordinates": [ [ -104.887879719912434, 39.387857516362203 ], [ -104.8878751, 39.3879045 ], [ -104.887863026243139, 39.387936482611252 ] ] } },
+{ "type": "Feature", "properties": { "label": "tracktype:grade1;note:Golf Cart path;golf:cartpath;highway:path" }, "geometry": { "type": "LineString", "coordinates": [ [ -104.888214476314602, 39.387857516362203 ], [ -104.8881485, 39.387922 ], [ -104.8880974, 39.3880122 ], [ -104.8879826, 39.3881563 ], [ -104.8879633, 39.3882103 ], [ -104.8879485, 39.3882824 ], [ -104.8879473, 39.3883431 ] ] } },
+{ "type": "Feature", "properties": { "label": "tracktype:grade1;note:Golf Cart path;golf:cartpath;highway:path" }, "geometry": { "type": "LineString", "coordinates": [ [ -104.8879473, 39.3883431 ], [ -104.8879565, 39.3883899 ], [ -104.887977, 39.3884412 ], [ -104.8880219, 39.3884868 ], [ -104.8880953, 39.3885331 ], [ -104.8882003, 39.3885649 ], [ -104.888332, 39.3885855 ], [ -104.8884663, 39.3885926 ], [ -104.8885597, 39.3885838 ], [ -104.8886477, 39.3885598 ], [ -104.8887531, 39.3885244 ], [ -104.8888279, 39.3884806 ], [ -104.8888884, 39.3884072 ], [ -104.8889903, 39.3882613 ], [ -104.8891047, 39.3881227 ] ] } },
+{ "type": "Feature", "properties": { "label": "note:Golf Cart path;golf:cartpath;highway:path" }, "geometry": { "type": "LineString", "coordinates": [ [ -104.8879473, 39.3883431 ], [ -104.887863026243139, 39.388386739211953 ] ] } }
+]
+}

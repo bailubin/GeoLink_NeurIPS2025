@@ -235,6 +235,7 @@ data = osm_process.process(polygon_file, line_file, point_file, north, south, ea
 ---
 
 *This repository contains the official implementation of GeoLink. If you find our work helpful, please consider citing our paper!* 📚
+```
 @misc{bai2025geolinkempoweringremotesensing,
       title={GeoLink: Empowering Remote Sensing Foundation Model with OpenStreetMap Data}, 
       author={Lubian Bai and Xiuyuan Zhang and Siqi Zhang and Zepeng Zhang and Haoyu Wang and Wei Qin and Shihong Du},
@@ -244,3 +245,4 @@ data = osm_process.process(polygon_file, line_file, point_file, north, south, ea
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2509.26016}, 
 }
+```

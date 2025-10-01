@@ -2,7 +2,7 @@
 
 Welcome to the official repository for the NeurIPS 2025 paper **"GeoLink: Empowering Remote Sensing Foundation Model with OpenStreetMap Data"**!
 
-📄 **Read our paper**: [arXiv Preprint]()
+📄 **Read our paper**: [arXiv Preprint](https://arxiv.org/abs/2509.26016)
 
 ![GeoLink Framework](https://github.com/bailubin/GeoLink_NeurIPS2025/blob/main/framework.png)
 
@@ -31,7 +31,7 @@ We provide two pre-trained models for different use cases:
 - **Download**: [PKU Disk Link](https://disk.pku.edu.cn/link/AACFE5713FC4724F92B07DF68FF2FCB2D6) or [Google Drive](https://drive.google.com/file/d/12u0goOohBYHjlkKIs11bVeTYyscd2Z9g/view?usp=drive_link)
 
 ### 2. Multimodal GeoLink 🌐
-- **Input**: Remote sensing images + OSM data
+- **Input**: Remote sensing images + OSM data. Using canses can be found in [**Using Multimodal GeoLink**](#using-multimodal-geolink).
 - **Output**: Fused RS-OSM features
 - **Use case**: Comprehensive geographic tasks requiring multimodal understanding
 - **Download**: [PKU Disk Link](https://disk.pku.edu.cn/link/AA0C4453EBBA4D4C979FA737047555ACDA) or [Google Drive](https://drive.google.com/file/d/1bAeNurdrH9nEI7qzwNWyLBWBSZnfwj_9/view?usp=drive_link)
@@ -235,3 +235,12 @@ data = osm_process.process(polygon_file, line_file, point_file, north, south, ea
 ---
 
 *This repository contains the official implementation of GeoLink. If you find our work helpful, please consider citing our paper!* 📚
+@misc{bai2025geolinkempoweringremotesensing,
+      title={GeoLink: Empowering Remote Sensing Foundation Model with OpenStreetMap Data}, 
+      author={Lubian Bai and Xiuyuan Zhang and Siqi Zhang and Zepeng Zhang and Haoyu Wang and Wei Qin and Shihong Du},
+      year={2025},
+      eprint={2509.26016},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.26016}, 
+}

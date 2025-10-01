@@ -18,8 +18,6 @@ Example can be found in [**Using Multimodal GeoLink**](#using-multimodal-geolink
 
 Our extensive experiments demonstrate that incorporating OSM data significantly boosts RS image encoder performance and enhances adaptability to complex geographic scenarios.
 
-📄 **Read our paper**: [arXiv Preprint]()
-
 ## 🏋️‍♂️ Pre-trained Models
 
 We provide two pre-trained models for different use cases:

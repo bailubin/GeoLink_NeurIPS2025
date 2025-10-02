@@ -22,7 +22,7 @@ Our extensive experiments demonstrate that incorporating OSM data significantly 
 
 We provide two pre-trained models for different use cases:
 
-### 1. Unimodal ViT 🔍
+### 1. Unimodal GeoLink(ViT) 🔍
 - **Input**: Remote sensing images only. Pretrained by GeoLink and we extract the image encoder out for unimodal application. Using cases can be found in [**Using Unimodal ViT**](#using-unimodal-vit)
 - **Output**: Remote sensing encodings
 - **Use case**: Standard RS interpretation tasks

@@ -23,7 +23,7 @@ Our extensive experiments demonstrate that incorporating OSM data significantly 
 We provide two pre-trained models for different use cases:
 
 ### 1. Unimodal GeoLink(ViT) 🔍
-- **Input**: Remote sensing images only. Pretrained by GeoLink and we extract the image encoder out for unimodal application. Using cases can be found in [**Using Unimodal ViT**](#using-unimodal-vit)
+- **Input**: Remote sensing images only. Pretrained by GeoLink and we extract the image encoder out for unimodal application. Using cases can be found in [**Using Unimodal GeoLink (ViT)**](#using-unimodal-vit)
 - **Output**: Remote sensing encodings
 - **Use case**: Standard RS interpretation tasks
 - **Download**: [PKU Disk Link](https://disk.pku.edu.cn/link/AACFE5713FC4724F92B07DF68FF2FCB2D6) or [Google Drive](https://drive.google.com/file/d/12u0goOohBYHjlkKIs11bVeTYyscd2Z9g/view?usp=drive_link)
@@ -51,7 +51,7 @@ as well as osm2graph_example to illustrate how to convert OSM data into standard
 The following examples are from ./using_example.ipynb.
 
 <a name="using-unimodal-vit"></a>
-### Using Unimodal ViT
+### Using Unimodal GeolInk (ViT)
 
 If you only need remote sensing image processing capabilities, use GeoLink pretrained unimodal ViT model.
 After download the checkpoint, you can use timm ViT to load it directly:

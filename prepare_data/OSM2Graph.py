@@ -56,7 +56,7 @@ class OSM2Graph():
                     try:
                         word_ws.append(self.tag_w[tag])
                     except:
-                        print(name, 'no tag ', tag)
+                        print('no tag ', tag)
                         word_ws.append(1)
                     inputs = self.tokenizer(w, return_tensors="pt", padding=False, truncation=False).to(self.device)
                     with torch.no_grad():
@@ -131,7 +131,7 @@ class OSM2Graph():
                     try:
                         word_ws.append(self.tag_w[tag])
                     except:
-                        print(name, 'no tag ', tag)
+                        print('no tag ', tag)
                         word_ws.append(1)
                     inputs = self.tokenizer(w, return_tensors="pt", padding=False, truncation=False).to(self.device)
                     with torch.no_grad():
@@ -399,3 +399,4 @@ class OSM2Graph():
         return data
 
         # torch.save(data, os.path.join(save_path, name+'.pt'))
+
